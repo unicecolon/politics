@@ -1,12 +1,33 @@
-*
-{
-    margin: 0;
-    padding: 0;
+body, html {
+    height: 100%;
 }
 
-header{
-    background-image: ;
-    height: 100vh;
-    background-size: cover;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:'Roboto', sans-serif;
+}
+.parallax {
+    background-image: url("https://media.giphy.com/media/12C01e5YMVbTuE/giphy.gif");
+    min-height: 450px;
+
+    background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    
 }
