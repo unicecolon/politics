@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MIDTERM ELECTIONS</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    <body>
+        <ul>
+            <li><a href="#about"> ABOUT</a></li>
+            <li><a href="#races">RACES</a></li>
+            <li><a href="#news">NEWS</a></li>
+            <li><a href="#home"> HOME</a></li>
+        </ul>
+
+
+        <div class="parallax"></div>
+        <div class="pagescontainer">
+
+                <img src="senatelogo.png" id="senateseal" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" data-aos-easing="ease-in-out">
+                <button id="button" onclick="myFunction()">LEARN MORE</button>
+                <img src="register.png" id="registerbanner" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-easing="ease-in-out">
+                <button id="button2" onclick="myFunction()">REGISTER</button >
+                <img src="houselogo.png" id="repbanner" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200" data-aos-easing="ease-in-out">
+                <button id="button3" >LEARN MORE</button>
+                <button id="button3" onclick="myFunction()">LEARN MORE</button data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200" >
+
+        </div>
+        </div>
+        <div class="midtermcap" data-aos="fade-right" data-aos-delay="600" data-aos-duration="10000">
+        <p id="midtermtitle">MIDTERM ELECTIONS</p>
+        <p id="midtermpara">Congressional midterm elections take place between Presidential elections. State and local races happen every year.</p>
+        <iframe width="640" height="360" id="video"
+            <iframe src="https://www.voanews.com/embed/player/0/4338632.html?type=video">
+            </iframe>
+        </div>
+
+        <div class="videocontainer">
+            
+        </div>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+         
+          AOS.init({
+            // Global settings
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+            initClassName: 'aos-init', // class applied after initialization
+            animatedClassName: 'aos-animate', // class applied on animation
+            useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+
+            // Settings that can be overriden on per-element basis, by `data-aos-*` attributes:
+            offset: 120, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 400, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: false, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+            anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+            });
+        </script>
+    </body>
+</html>

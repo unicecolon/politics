@@ -1,0 +1,147 @@
+body, html {
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:'Roboto', sans-serif;
+}
+.parallax {
+    background-image: url("capital.png");
+    min-height: 700px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.pagescontainer {
+    background-color: rgb(248, 248, 238);
+    width: 100%;
+    height: 50%;
+    flex-direction: row;
+    
+}
+
+
+#senateseal {
+    width: 22%;
+    margin-left: 210px;
+    margin-top: 120px;
+    margin-right: 70px;
+    /* overflow: hidden; */
+    /* white-space: nowrap; */
+    
+    
+}
+
+#button {
+    position: absolute;
+    background-color: lightgrey;
+    left: 317px;
+    top: 1215px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    border: none;
+    color: black;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 4px;
+}
+#button2 {
+    position: absolute;
+    background-color: lightgrey;
+    left: 700px;
+    top: 1215px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    border: none;
+    color: black;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 4px;
+}
+#button3 {
+    position: absolute;
+    background-color: lightgrey;
+    left: 1060px;
+    top: 1215px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    border: none;
+    color: black;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#registerbanner {
+    width: 18%;
+    /* margin-top: 60px; */
+    /* margin-left: 60px; */
+}
+#repbanner {   
+    width: 22%;
+    margin-top: 120px;
+    margin-left: 60px;
+    /* margin-right: 260px; */
+}
+.midtermcap {
+    background-color: white;
+    width: 100%;
+    height: 50%;
+}
+    
+#midtermtitle {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 50px;
+    margin-top: 140px;
+    margin-left: 200px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+#midtermpara {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    margin-top: 145px;
+    margin-left: 205px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.videocontainer {
+    background-color: rgb(248, 248, 238);
+    height: 60%;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#video {
+    float: left;
+    margin-top: 550px;
+    margin-left: 450px;
+    border: none;
+    white-space: nowrap;
+    overflow: hidden;
+}
