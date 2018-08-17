@@ -19,7 +19,7 @@ li a {
     font-family:'Roboto', sans-serif;
 }
 .parallax {
-    background-image: url("img/capital.png");
+    background-image: url("capital.png");
     min-height: 700px;
 
     background-attachment: fixed;
@@ -131,6 +131,9 @@ li a {
     letter-spacing: 1px;
 }
 .videocontainer {
+    background-color: white;
+    height:30%;
+    width: 100%;
     background-color: rgb(248, 248, 238);
     height: 60%;
     width: 100%;
@@ -139,8 +142,8 @@ li a {
 }
 #video {
     float: left;
-    margin-top: 550px;
-    margin-left: 450px;
+    /* margin-top: 550px;
+    margin-left: 450px; */
     border: none;
     white-space: nowrap;
     overflow: hidden;
