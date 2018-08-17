@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Oxygen');
+
+body, html {
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:'Roboto', sans-serif;
+}
+.parallax {
+    background-image: url("capital.png");
+    min-height: 700px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.pagescontainer {
+    background-color: rgb(248, 248, 238);
+    width: 100%;
+    height: 50%;
+    flex-direction: row;
+    
+}
+/* .senatecontainer {
+    padding: 30px 40px;
+    position: fixed;
+    width: 20%;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+} */
+#senateseal {
+    width: 14%;
+    float: left;
+    padding: 60px 260px;
+    
+}
+#button {
+    position: absolute;
+    left: 327px;
+    top: 1080px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-color: white;
+}
+
+#congress {
+    z-index: -1;
+
+}
+
+#GWC {
+    letter-spacing: normal;
+    z-index: 1;
+    position: absolute;
+    top: 240px;
+    left: 500px;
+    font-size: 30px;
+    width: 550px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.rectangle {
+    position: absolute;
+    z-index: 0;
+    opacity: .8;
+    height: 390px;
+    background-color: #555;
+    top: 220px;
+    left: 470px;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+  }
+
+
+
+
+
+/*Photos Lara */
+
+.container {
+    position: absolute;
+    width: 20%;
+    top: 825px;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(255, 230, 118);
+  }
+  
+  .container:hover .overlay {
+    opacity: .8;
+  }
+  
+  .text {
+    top: 5px;
+    padding: 15px;
+    opacity: 1;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+
+
+    
+  }
+
+
+  
+/* Photos Unice */
+
+.Unice {
+    right: 0px;
+    position: absolute;
+    width: 20%;
+    top: 825px;
+  }
+  
+  .uimage {
+    display: block;
+    width: 105%;
+    height: 400px;
+  }
+  
+  .overlay {
+
+    right: 25px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(255, 230, 118);
+  }
+  
+  .Unice:hover .overlay {
+    opacity: .8;
+    width: 105%;
+  }
+  
+  .text {
+    top: 5px;
+    padding: 15px;
+    opacity: 1;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+#dot {
+    position: absolute;
+    top: 2000px;
+}
+
+
+/* Photos Vivian */
+
+.vivian {
+    right: 320px;
+    position: absolute;
+    width: 20%;
+    top: 825px;
+  }
+  
+  .vimage {
+    
+    display: block;
+    width: 100%;
+    height: 400px;
+  }
+  
+  .overlay {
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0px;
+    height: 120%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(255, 230, 118);
+  }
+  
+  .vivian:hover .overlay {
+    opacity: .8;
+  }
+  
+  .text {
+    top: 5px;
+    padding: 15px;
+    opacity: 1;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+/* Bri photo */
+
+.bri {
+    right: 640px;
+    position: absolute;
+    width: 20%;
+    top: 825px;
+  }
+  
+  .bimage {
+    display: block;
+    width: 100%;
+    height: 400px;
+  }
+  
+  .overlay {
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(255, 230, 118);
+  }
+  
+  .bri:hover .overlay {
+    opacity: .8;
+  }
+  
+  .text {
+    top: 5px;
+    padding: 15px;
+    opacity: 1;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+/* Sandra photo */
+
+.Sandra {
+    top: 825px;
+    right: 923px;
+    position: absolute;
+    width: 20%;
+  }
+  
+  .simage {
+    display: block;
+    width: 100%;
+    height: 400px;
+    
+}
+  
+  .overlay {
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(255, 230, 118);
+  }
+  
+  .Sandra:hover .overlay {
+    opacity: .8;
+  }
+  
+  .text:hover .overlay {
+    opacity: 1;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+
+  #gallery {
+    left: 10px;
+    position: absolute;
+    top: 1260px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 25px;
+  }
+
+
+
+/* Photo Gallery */
+
+
+#one {
+
+    position: absolute;
+    top: 1320px;
+    height: 49%;
+
+
+}
+
+#two {
+
+    position: absolute;
+    top: 1320px;
+    right: 10px;
+    height: 49%;
+
+}
+
+#three {
+
+    position: absolute;
+    top: 1320px;
+    right: 430px;
+    height: 49%;
+
+}
+
+#four {
+
+    position: absolute;
+    top: 1670px;
+    height: 49%;
+
+}
+
+#five {
+
+    position: absolute;
+    top: 1670px;
+    height: 49%;
+    right: 510px;
+
+}
+
+#six {
+
+    position: absolute;
+    top: 1670px;
+    height: 49%;
+    right: 20px;
+
+
+
+}
+
+#bio {
+    left: 10px;
+    position: absolute;
+    top: 780px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 25px;
+  }
