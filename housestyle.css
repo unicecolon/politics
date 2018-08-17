@@ -2,6 +2,7 @@
 
 body, html {
     height: 100%;
+    font-family: 'Roboto', serif;
 }
 
 /*ul {
@@ -38,7 +39,7 @@ hr {
 
 .box {
     font-family: "Nanum+Gothic", sans-serif;
-    height: 480px;
+    height: 555px;
     width: 300px;
     float: right;
     padding: 0px;
@@ -53,6 +54,7 @@ hr {
 #reach {
     margin: 0px 10px 0px 10px;
     line-height: 1.6;
+    font-size: 18px
 }
 
 #link {
@@ -70,7 +72,7 @@ hr {
 #con {
     width: 250px; 
     height: 72px; 
-    padding: 30px 25px
+    padding: 35px 25px
 }
 
 #text {
