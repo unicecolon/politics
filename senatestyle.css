@@ -87,6 +87,10 @@ hr {
     margin-left: 15px;
 }
 
+#blue {
+    color: blue;
+}
+
 #done {
     margin-left: 15px;
 }
@@ -121,6 +125,12 @@ hr {
 
 #lead {
     font-size: 21px;
+}
+
+#reelection {
+    font-family: Roboto;
+    text-align: right;
+    margin-right: 90px;
 }
 
 
