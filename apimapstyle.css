@@ -155,6 +155,20 @@ li a {
     color: #fff;
   }
 
+    a:visited {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #fff;
+        text-decoration: underline;
+    }
+
+    a:active {
+        color: #fff;
+        text-decoration: underline;
+    }
   #button {
     margin-left:300px;
   }

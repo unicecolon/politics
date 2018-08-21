@@ -174,7 +174,7 @@ footer {
     width: 250px;
     font-size: 1.5rem;
     font-weight: bold;
-    margin-left: 400px;
+    margin-left: 500px;
     font-family: 'Roboto', sans-serif;
     color: rgb(34, 33, 33);
     background-color: rgb(22, 157, 241);
@@ -205,3 +205,87 @@ footer {
     text-align: center;
 }
 
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+  #footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(143, 8, 8);
+    font-family: 'Roboto';
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    font-size: 1rem;
+    text-align: center;
+    padding: 15px;
+    align-self: center;
+    width:100%;
+    height: 250px;
+    font-size: 21px;
+  }
+  
+  #navdiv {
+    background-color:  rgba(143, 8, 8);
+    text-decoration: none;
+    color:#fff;
+    font-family: 'Roboto';
+    height: 100px;
+  }
+ 
+  #resdiv {
+        background-color:  rgba(143, 8, 8);
+        color:#fff;
+        text-decoration: none;
+        font-family: 'Roboto';
+        height: 100px;
+  }
+ 
+ 
+  #projdiv {
+    background-color:  rgba(143, 8, 8);
+    text-decoration: none;
+    color:#fff;
+    font-family: 'Roboto';
+    height: 100px;
+  }
+ 
+  #condiv {
+    background-color:  rgba(143, 8, 8);
+    text-decoration: none;
+    color:#fff;
+    font-family: 'Roboto';
+    height: 100px;
+  }
+
+  a:link{
+    text-decoration: none;
+    color: #fff;
+  }
+
+    a:visited {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #fff;
+        text-decoration: underline;
+    }
+
+    a:active {
+        color: #fff;
+        text-decoration: underline;
+    }
+
+  #button {
+    margin-left:300px;
+  }
+ 
+  .contactform{
+      background-color: yellow;
+  }
+
+  #black{
+    color: #000;
+  }
