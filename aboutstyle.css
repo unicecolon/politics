@@ -6,23 +6,6 @@ body, html {
   overflow-x: hidden;
 }
 
-.blah {
-
-  position: absolute;
-  font-size: 40px;
-  z-index: 3;
-  margin-top: -55px;
-  margin-left: 35px;
-  font-family: 'Roboto', sans-serif;
-}
-
-hr {
-
-  margin-right: 50%;
-  margin-left: 2%;
-
-}
-
 ul {
     list-style-type: none;
     overflow: hidden;
