@@ -19,7 +19,7 @@ li a {
     font-family:'Roboto', sans-serif;
 }
 .parallax {
-    background-image: url("img/capital.png");
+    background-image: url("capital.png");
     min-height: 700px;
 
     background-attachment: fixed;
@@ -122,26 +122,103 @@ li a {
     font-weight: bolder;
     letter-spacing: 1px;
 }
+/* .midtermcaptioncontainer {
+    display: block;
+    width: 60%;
+    height: 120px;
+} */
 #midtermpara {
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 20px;
-    margin-top: 145px;
+    margin-top: -40px;
     margin-left: 205px;
     font-weight: lighter;
     letter-spacing: 1px;
+    white-space: wrap;
+}
+#upcoming {
+    font-family: 'Nanum Gothic', sans-serif;
+    color: black;
+    font-size: 31px;
+    margin-top: 10px;
+    margin-left: 570px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    white-space: wrap;
+}
+#elections {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    margin-top: -10px;
+    white-space: wrap;
+    margin-left: 205px;
+    width: 80%;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    white-space: wrap;
+    /* line-height: 25px;
+    text-indent: 10px; */
+}
+#house {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    margin-top: -10px;
+    margin-left: 222px;
+    white-space: wrap;
+    letter-spacing: 1px;
+}
+#senateline {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    margin-top: -10px;
+    margin-left: 222px;
+    white-space: wrap;
+    letter-spacing: 1px;
+}
+#senatelink {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 19px;
+    margin-right: 200px;
+
 }
 .videocontainer {
-    background-color: rgb(248, 248, 238);
+    /* background-color:rgb(248, 248, 238);
     height: 60%;
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
+    background-image: rgb(211, 211, 206);
+    z-index: 1; */
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
 }
 #video {
     float: left;
-    margin-top: 550px;
-    margin-left: 450px;
+    /* margin-top: 550px;
+    margin-left: 450px; */
     border: none;
     white-space: nowrap;
     overflow: hidden;
+}
+#con {
+    width: 100%;
+    border: 2px solid black;
+    height: 200px;
+    /* background-color:rgb(248, 248, 238); */
+    background-color: yellow;
+    z-index: -1;
+    position: absolute;
+    background-image: rgb(211, 211, 206);
+    margin-top: 10px;
+}
+
+#con2 {
+    width: 100%;
+    /* border: 2px solid yellow; */
+    height: 200px;
+    background-color:pink;
+    z-index: -1;
+    position: absolute;
 }
