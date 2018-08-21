@@ -22,6 +22,7 @@ li a {
     font-family:'Roboto', sans-serif;
 }
 
+
 h1 {
     font-family: "Nanum+Gothic", sans-serif;
     text-align: center;
@@ -93,14 +94,6 @@ hr {
     clear: both;
 }
 
-#work {
-    margin-left: 15px;
-}
-
-#info {
-    font-size: 21px;
-}
-
 #senate {
     font-size: 21px;
 }
@@ -108,3 +101,6 @@ hr {
 #lead {
     font-size: 21px;
 }
+
+
+  }
