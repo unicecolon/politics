@@ -1,0 +1,206 @@
+body, html {
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:'Roboto', sans-serif;
+}
+.parallax {
+    background-image: url("https://media.giphy.com/media/12C01e5YMVbTuE/giphy.gif");
+    min-height: 450px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    
+}
+
+header{
+    text-align: center;
+    font-family:'Roboto',sans-serif;
+    padding: 5px;
+    font-size: 4rem;
+}
+
+#header {
+    font-family: 'Roboto' , sans-serif;
+    margin: 1rem;
+    width: 1430px;
+    padding: 1rem;
+    text-align: center;
+    background: rgb(4, 10, 76);
+    color: #fff;
+  }
+  
+  #header h2 {
+    border-left: dotted 1px #fff;
+    border-right: dotted 1px #fff;
+    font-size: 2.1rem;
+    display: inline-block;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+
+#format{
+    padding: 14px;
+    height:400px;
+    margin: 40px;
+    border: 3px solid rgb(179, 179, 179);
+    box-sizing: border-box;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    -moz-box-shadow: 5px 5px 10x #000000;
+    -webkit-box-shadow: 5px 5px 10px #000000;
+    box-shadow: 5px 5px 10px #000000;
+}
+
+.words{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 4px;
+    max-width: 60%;
+    position: absolute;
+}
+
+.connected{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 2rem;
+    text-align: right;
+    margin-right: 4px;
+}
+
+#centerVid{
+    margin-top: 25px;
+    height: 300px;
+    top: 0px;
+    margin-left: 14px;
+    float: left;
+}
+
+footer {
+    display: block;
+    font-family: 'Roboto';
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: rgb(248, 248, 238);
+    color: #333;
+  }
+  
+  footer h3 {
+    font-size: 3rem;
+    margin-bottom: 0;
+  }
+
+  #words{
+    text-align: center;
+    
+  }
+  
+  .container{
+    margin-top: 25px;
+    float: right;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 2rem;
+    text-align: right;
+    margin-right: 18px;
+    padding: 8px;
+    top: 5px;
+    width: 58%;
+    background-color:rgb(248, 248, 238);
+    display:block;
+  }
+
+#rules{
+    margin-left: 250px;
+    margin-right: 250px;
+    border: gray;
+}
+
+#topic{
+    margin-top:40px;
+    margin-left: -50px;
+    color: darkblue;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 1.7rem;
+}
+
+#para{
+    margin-left: 50px;
+    font-size: 1.2rem;
+    font-family: 'Roboto' , sans-serif;
+
+}
+
+#mainTop{
+    margin-top: 500px;
+    margin-left: 150px;
+    color: darkred;
+    font-size: 3rem;
+    font-family: 'Roboto' , sans-serif;
+}
+
+#subPara{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 1.5rem;
+    color: rgb(44, 44, 44);
+}
+
+#button{
+    height: 80px;
+    width: 250px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 400px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(34, 33, 33);
+    background-color: rgb(22, 157, 241);
+    border-radius: 4px;
+}
+
+#pic{
+    margin-top: -20px;
+    position: relative;
+    margin-left: 150px;
+}
+
+#pic2{
+    position: relative;
+    margin-right: 200px;
+}
+
+#bullets{
+    margin-left: 25px;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 1.2rem;
+}
+
+#links{
+    font-size: 1.5rem;
+    font-family: 'Roboto' , sans-serif;
+    color: darkred;
+    text-align: center;
+}
