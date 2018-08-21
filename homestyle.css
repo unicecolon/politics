@@ -19,7 +19,7 @@ li a {
     font-family:'Roboto', sans-serif;
 }
 .parallax {
-    background-image: url("capital.png");
+    background-image: url("img/capital.png");
     min-height: 700px;
 
     background-attachment: fixed;
@@ -222,3 +222,4 @@ li a {
     z-index: -1;
     position: absolute;
 }
+
