@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Oxygen');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body, html {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:'Roboto', sans-serif;
+}
+
+hr {
+
+    margin-right: 50%;
+    margin-left: 2%;
+
+}
+
+#text {
+    padding: 60px;
+}
+.NYT {
+
+    position: absolute;
+    height: 250px;
+    width: 250px;
+
+}
+
+.NYTtext {
+
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 240px;
+    margin-top: 25px;
+
+}
+
+.NYTtextfinal {
+    position: absolute;
+    width: 320px;
+    margin-left: 240px;
+    margin-top: 50px;
+ 
+}
+
+.newssource {
+
+    position: absolute;
+    font-size: 40px;
+    z-index: 3;
+    margin-top: -55px;
+    margin-left: 35px;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+
+.wsj {
+
+    position: absolute;
+    height: 260px;
+    width: 230px;
+    margin-left: 600px;
+    margin-top: -20px;
+
+}
+
+.wsjtext {
+    
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 865px;
+    margin-top: 25px;
+
+}
+
+.wsjtextfinal {
+
+    position: absolute;
+    width: 390px;
+    margin-left: 850px;
+    margin-top: 50px;
+
+
+
+}
+
+.economist {
+
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    margin-top: 250px;
+
+}
+
+.Theeconomisttext {
+
+    margin-top: 250px;
+    margin-left: 250px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.economisttextfinal {
+
+    margin-top: 20px;
+    margin-left: 250px;
+    width: 320px;
+
+}
+
+.reuters {
+
+    position: absolute;
+    height: 430px;
+    width: 550px;
+    margin-left: 450px;
+    margin-top: -315px;
+}
+
+.reuterstext {
+
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 865px;
+    margin-top: -235px;
+    
+}
+
+.reuterstextfinal {
+
+    position: absolute;
+    width: 390px;
+    margin-left: 850px;
+    margin-top: -210px;
+
+}
