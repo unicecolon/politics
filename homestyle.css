@@ -1,7 +1,11 @@
 body, html {
     height: 100%;
 }
-
+#midtermphoto {
+    width: 15%;
+    float:left;
+    margin-top: 11px;
+}
 ul {
     list-style-type: none;
     overflow: hidden;
@@ -19,7 +23,7 @@ li a {
     font-family:'Roboto', sans-serif;
 }
 .parallax {
-    background-image: url("img/capital.png");
+    background-image: url("capital.png");
     min-height: 700px;
 
     background-attachment: fixed;
@@ -58,8 +62,8 @@ li a {
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: bolder;
     font-size: 45px;
-    margin-top: -80px;
-    margin-left: 300px;
+    margin-top: -100px;
+    margin-left: 290px;
 }
 
 #senateseal {
@@ -150,8 +154,9 @@ li a {
     text-decoration: none;
     color: rgb(34, 34, 83);
     font-weight: 1000;
-    margin-left: 120px;
-    margin-bottom: 500px;
+    margin-left: 150px;
+    margin-top: 300px;
+    position: absolute;
 }
 #getactive {
     font-family: 'Source Sans Pro', sans-serif;
@@ -177,12 +182,24 @@ li a {
 }
 #politicmap {
     width: 20%;
+    margin-left: 800px;
+    margin-top: -135px;
+    position: absolute;
+    z-index: 1;
 }
 #pointer {
     width: 2%;
+    margin-left: 1045px;
+    margin-top: -67px;
+    position: absolute;
+    z-index: 1;
 }
 #mapgif {
     width: 12%;
+    position: absolute;
+    margin-left: 940px;
+    margin-top: -200px;
+    z-index: 1;
 }
 #midtermtitle {
     font-family: 'Nanum Gothic', sans-serif;
@@ -276,7 +293,6 @@ li a {
 }
 #con {
     width: 100%;
-    border: 2px solid black;
     height: 60%;
     /* background-color:rgb(248, 248, 238); */
     background-color: beige;
