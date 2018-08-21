@@ -26,11 +26,11 @@ li a {
 
 #us-map{
     display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    position: center;
+    margin-top: 20px;
+    margin-left: 260px;
+    width: 90%;
+    height: 90%;
   }
   path:hover, circle:hover {
     stroke: #7e0087;
@@ -52,7 +52,7 @@ li a {
   
   #path67 {
     fill: none !important;
-    stroke: #A9A9A9 !important;
+    stroke: #909090 !important;
     cursor: default;
   }
   
@@ -77,3 +77,97 @@ li a {
     font-family: arial;
   }
   
+  header{
+    text-align: center;
+    font-family:'Roboto',sans-serif;
+    padding: 5px;
+    font-size: 4rem;
+}
+
+#header {
+    font-family: 'Roboto' , sans-serif;
+    margin: 1rem;
+    width: 1430px;
+    padding: 1rem;
+    text-align: center;
+    background: rgb(4, 10, 76);
+    color: #fff;
+  }
+  
+  #header h2 {
+    border-left: dotted 1px #fff;
+    border-right: dotted 1px #fff;
+    font-size: 2.1rem;
+    display: inline-block;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+
+  @import url('https://fonts.googleapis.com/css?family=Roboto');
+  #footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(143, 8, 8);
+    font-family: 'Roboto';
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    font-size: 1rem;
+    text-align: center;
+    padding: 15px;
+    align-self: center;
+    width:100%;
+    height: 250px;
+    font-size: 21px;
+  }
+ 
+  #navdiv {
+    background-color:  rgba(143, 8, 8);
+    text-decoration: none;
+    color:#fff;
+    font-family: 'Roboto';
+  }
+ 
+  #resdiv {
+        background-color:  rgba(143, 8, 8);
+        color:#fff;
+        text-decoration: none;
+        font-family: 'Roboto';
+  }
+ 
+ 
+  #projdiv {
+    background-color:  rgba(143, 8, 8);
+    text-decoration: none;
+    color:#fff;
+    font-family: 'Roboto';
+  }
+ 
+  #condiv {
+    background-color:  rgba(143, 8, 8);
+    text-decoration: none;
+    color:#fff;
+    font-family: 'Roboto';
+  }
+  a:link{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  #button {
+    margin-left:300px;
+  }
+ 
+  .contactform{
+      background-color: yellow;
+  }
+
+  #color{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  #black{
+    color: #000;
+  }
