@@ -5,6 +5,7 @@
 body, html {
   height: 100%;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 ul {
@@ -29,9 +30,11 @@ hr {
     margin-right: 50%;
     margin-left: 2%;
 
-
 }
 
+#text {
+    padding: 60px;
+}
 .NYT {
 
     position: absolute;
