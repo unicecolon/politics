@@ -77,6 +77,15 @@ hr {
     margin-left: 15px
 }
 
+#work {
+    font-size: 21px;
+    margin-left: 15px;
+}
+
+#done {
+    margin-left: 15px;
+}
+
 #list {
     text-align: center;
 }
@@ -108,4 +117,3 @@ hr {
 #lead {
     font-size: 21px;
 }
-

@@ -80,6 +80,11 @@ hr {
 }
 
 #work {
+    font-size: 21px;
+    margin-left: 15px;
+}
+
+#done {
     margin-left: 15px;
 }
 
@@ -95,9 +100,7 @@ hr {
     font-size: 21px;
 }
 
-
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-  #footer {
+#footer {
     display: flex;
     justify-content: space-around;
     background-color: rgba(143, 8, 8);
