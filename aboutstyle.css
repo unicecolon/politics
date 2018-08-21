@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif|Oxygen');
 
 body, html {
-    height: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 ul {
@@ -21,16 +22,7 @@ li a {
     text-decoration: none;
     font-family:'Roboto', sans-serif;
 }
-.parallax {
-    background-image: url("capital.png");
-    min-height: 700px;
 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
 .pagescontainer {
     background-color: rgb(248, 248, 238);
     width: 100%;
@@ -63,6 +55,8 @@ li a {
 
 #congress {
     z-index: -1;
+    overflow-y: hidden;
+    height: 675px;
 
 }
 
@@ -338,7 +332,7 @@ li a {
     position: absolute;
     top: 1320px;
     height: 49%;
-
+    /*width: 46%;*/
 
 }
 
@@ -355,15 +349,16 @@ li a {
 
     position: absolute;
     top: 1320px;
-    right: 430px;
+    right: 476.5px;
     height: 49%;
+    /*width: 26%;*/
 
 }
 
 #four {
 
     position: absolute;
-    top: 1670px;
+    top: 1700px;
     height: 49%;
 
 }
@@ -371,18 +366,18 @@ li a {
 #five {
 
     position: absolute;
-    top: 1670px;
+    top: 1700px;
     height: 49%;
-    right: 510px;
+    right: 500px;
 
 }
 
 #six {
 
     position: absolute;
-    top: 1670px;
+    top: 1700px;
     height: 49%;
-    right: 20px;
+    right: 10px;
 
 
 

@@ -19,7 +19,7 @@ li a {
     font-family:'Roboto', sans-serif;
 }
 .parallax {
-    background-image: url("capital.png");
+    background-image: url("img/capital.png");
     min-height: 700px;
 
     background-attachment: fixed;
@@ -49,9 +49,10 @@ li a {
 }
 
 #button {
+    text-decoration: none;
     position: absolute;
     background-color: lightgrey;
-    left: 317px;
+    left: 300px;
     top: 1215px;
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
@@ -65,6 +66,7 @@ li a {
     border-radius: 4px;
 }
 #button2 {
+    text-decoration: none;
     position: absolute;
     background-color: lightgrey;
     left: 700px;
@@ -117,31 +119,42 @@ li a {
 #midtermtitle {
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 50px;
-    margin-top: 140px;
-    margin-left: 200px;
+    margin-top: 0px;
+    margin-left: 450px;
     font-weight: bolder;
     letter-spacing: 1px;
 }
 #midtermpara {
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 20px;
-    margin-top: 145px;
+    margin-top: 100px;
     margin-left: 205px;
     font-weight: lighter;
     letter-spacing: 1px;
 }
 .videocontainer {
+    position: absolute;
+    left: 350px;
+    z-index: 3;
+    background-color: white;
     background-color: rgb(248, 248, 238);
-    height: 60%;
+    height: 50%;
     width: 100%;
     white-space: nowrap;
-    overflow: hidden;
 }
 #video {
     float: left;
-    margin-top: 550px;
-    margin-left: 450px;
+    /* margin-top: 550px;
+    margin-left: 450px; */
     border: none;
     white-space: nowrap;
     overflow: hidden;
 }
+
+.rectangle {
+    position: absolute;
+    z-index: -1;
+    height: 65%;
+    width: 100%;
+    background-color: rgb(248, 248, 238);
+  }
