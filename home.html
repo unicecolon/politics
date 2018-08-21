@@ -6,40 +6,56 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:900|Source+Sans+Pro:900" rel="stylesheet">
     </head>
     <body>
         <ul>
-            <li><a href="about.html"> ABOUT</a></li>
-            <li><a href="#races">RACES</a></li>
-            <li><a href="news.html">NEWS</a></li>
-            <li><a href="home.html"> HOME</a></li>
+            <img src="img/midtermpic.png" id="midtermphoto">
+            <li><a id ="black"href="about.html"> ABOUT</a></li>
+            <li><a id = "black" href="purpose.html">PURPOSE</a></li>
+            <li><a id = "black"href="news.html">NEWS</a></li>
+            <li><a id = "black" href="apimap.html">MAP</a></li>
+            <li><a id = "black" href="home.html"> HOME</a></li>
         </ul>
 
 
         <div class="parallax"></div>
         <div class="pagescontainer">
-
+            <p id="random">random thing because you're not working</p>
+            <p id="difference">MAKE A DIFFERENCE.</p>
+            <img src="https://media.giphy.com/media/XHU4hVvPuLuW34U9Pb/giphy.gif" id="november">
+            <p id="findout">FIND OUT MORE.</p>
                 <img src="img/senatelogo.png" id="senateseal" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" data-aos-easing="ease-in-out">
                 <button id="button" onclick="location.href='senate.html'">LEARN MORE</button>
                 <img src="img/register.png" id="registerbanner" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-easing="ease-in-out">
                 <button id="button2" onclick="location.href='votingReg.html'">REGISTER</button >
-                <img src="img/houselogo.png" id="repbanner" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200" data-aos-easing="ease-in-out">
-                <button id="button3" >LEARN MORE</button>
-                <button id="button3" onclick="location.href='house.html'">LEARN MORE</button data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200" >
+                <img src="img/houselogo.png" onclick="location.href='http://nymag.com/daily/intelligencer/article/2018-midterm-election-tracker-house.html'" id="repbanner" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200" data-aos-easing="ease-in-out">
+                <button id="button3" onclick="location.href='house.html'">LEARN MORE</button data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200" data-aos-easing="ease-in-out" >
 
         </div>
         </div>
         <div class="midtermcap">
-        <p id="midtermtitle" data-aos="fade-right" data-aos-delay="600" data-aos-duration="10000">MIDTERM ELECTIONS</p>
+            <div id="yeah">
+            <img src="https://media.giphy.com/media/oOGfAq1g104i8IfI0T/giphy.gif" id="votemore">
+            <a href="votingReg.html" id="votinginfo" data-aos="fade-left" data-aos-duration:"2000" data-aos-delay:"1000" data-aos-easing="ease-in-out">NEED INFO?</a>
+            </div>
+        <!-- <p id="midtermtitle" data-aos="fade-right" data-aos-delay="600" data-aos-duration="10000">WHAT ARE MIDTERM ELECTIONS?</p> -->
             <div class="mitermcaptioncontainer">
-                <p id="midtermpara" data-aos="fade-down-right" data-aos-delay="650" data-aos-duration-"10000">Congressional midterm elections take place between Presidential elections. State and local races happen every year.</p>
+                <p id="getactive">Want to be heard? Get Active.</p>
+                <p id="learn">Learn more about the midterm elections and the upcoming races in your state above.</p>
+                <a href="https://www.usa.gov/register-to-vote#item-212645" id="registernow">Register now.</a>
+                <img src="img/politicmap.png" id="politicmap">
+                <img src="https://media.giphy.com/media/fR1TbzdCD0ZQ9z9ILq/giphy.gif" id="pointer">
+                <img src="https://media.giphy.com/media/dJGWfmUkyh6cheTgzI/giphy.gif" id="mapgif">
+                <!-- <p id="midtermpara" data-aos="fade-down-right" data-aos-delay="650" data-aos-duration-"10000">Congressional midterm elections take place between Presidential elections. State and local races happen every year.</p>
                 <p id="upcoming" data-aos="fade-left" data-aos-delay="800" data-aos-duration-"10000">Upcoming Elections for 2018</p>
                 <p id="elections"data-aos="fade-right" data-aos-delay="900" data-aos-duration-"10000">While 2018 is not a Presidential election year, there are many other races coming up at the federal, state, and local level, including:
                 </p>
                 <p id="house" data-aos="fade-right" data-aos-delay="1000" data-aos-duration-"10000">All 435 seats in the U.S. House of Representatives</p>
-                <p id="senateline" data-aos="fade-left" data-aos-delay="1060" data-aos-duration-"10000"> One-third of all U.S. Senators</p>
+                <p id="senateline" data-aos="fade-right" data-aos-delay="1100" data-aos-duration-"10000"> One-third of all U.S. Senators</p> -->
             </div>
-            <li id="senatelink"><a href="senate.html">See which Senators are up for re-election</a></li>
+            <!-- <li id="senatelink"><a href="senate.html">See which Senators are up for re-election</a></li> -->
         </div>
         <div id="con"></div>
         <div class="videocontainer">
@@ -48,6 +64,8 @@
                 </iframe>
         </div>
         <div id="con2"></div>
+
+        
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
          
@@ -58,6 +76,7 @@
             initClassName: 'aos-init', // class applied after initialization
             animatedClassName: 'aos-animate', // class applied on animation
             useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+
             // Settings that can be overriden on per-element basis, by `data-aos-*` attributes:
             offset: 120, // offset (in px) from the original trigger point
             delay: 0, // values from 0 to 3000, with step 50ms
@@ -68,6 +87,7 @@
             anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
             });
         </script>
+
 
     </body>
 </html>
