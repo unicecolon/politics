@@ -19,7 +19,7 @@ li a {
     font-family:'Roboto', sans-serif;
 }
 .parallax {
-    background-image: url("img/capital.png");
+    background-image: url("capital.png");
     min-height: 700px;
 
     background-attachment: fixed;
@@ -31,16 +31,41 @@ li a {
 .pagescontainer {
     background-color: rgb(248, 248, 238);
     width: 100%;
-    height: 50%;
+    height: 80%;
     flex-direction: row;
     
 }
+#random {
+    color: rgb(248, 248, 238);
+    margin-top: -1px;
+}
+#difference {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bolder;
+    font-size: 65px;
+    margin-top: 80px;
+    margin-left: 740px;
+    color: rgb(47, 47, 110);
+}
+#november {
+    width: 13%;
+    margin-top: -100px;
+    margin-left: 1280px;
 
+}
+
+#findout {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bolder;
+    font-size: 45px;
+    margin-top: -80px;
+    margin-left: 300px;
+}
 
 #senateseal {
     width: 22%;
     margin-left: 210px;
-    margin-top: 120px;
+    margin-bottom: 100px;
     margin-right: 70px;
     /* overflow: hidden; */
     /* white-space: nowrap; */
@@ -51,8 +76,8 @@ li a {
 #button {
     position: absolute;
     background-color: lightgrey;
-    left: 317px;
-    top: 1215px;
+    left: 319px;
+    top: 1445px;
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     border: none;
@@ -68,7 +93,7 @@ li a {
     position: absolute;
     background-color: lightgrey;
     left: 700px;
-    top: 1215px;
+    top: 1445px;
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     border: none;
@@ -84,7 +109,7 @@ li a {
     position: absolute;
     background-color: lightgrey;
     left: 1060px;
-    top: 1215px;
+    top: 1445px;
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     border: none;
@@ -99,28 +124,74 @@ li a {
 
 #registerbanner {
     width: 18%;
+    margin-bottom: 100px;
     /* margin-top: 60px; */
     /* margin-left: 60px; */
 }
 #repbanner {   
     width: 22%;
-    margin-top: 120px;
+    margin-bottom: 100px;
     margin-left: 60px;
     /* margin-right: 260px; */
 }
 .midtermcap {
     background-color: white;
     width: 100%;
-    height: 50%;
+    height: 130%;
 }
+#votemore {
+    width: 22%;
+    margin-left: 190px;
+    margin-top: 170px;
+}
+#votinginfo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    text-decoration: none;
+    color: rgb(34, 34, 83);
+    font-weight: 1000;
+    margin-left: 120px;
+    margin-bottom: 500px;
+}
+#getactive {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 36px;
+    font-weight: 1000;
+    margin-left: 120px;
+    margin-top: 100px;
+}
+#learn {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    margin-left: 124px;
+    margin-top: -20px;
     
+}
+#registernow {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    margin-left: 124px;
+    margin-bottom: -100px;
+}
+#politicmap {
+    width: 20%;
+    
+}
+#pointer {
+    width: 2%;
+}
+#mapgif {
+    width: 12%;
+}
 #midtermtitle {
     font-family: 'Nanum Gothic', sans-serif;
-    font-size: 50px;
-    margin-top: 140px;
+    font-size: 45px;
+    margin-top: 170px;
     margin-left: 200px;
     font-weight: bolder;
-    letter-spacing: 1px;
+
 }
 /* .midtermcaptioncontainer {
     display: block;
@@ -129,26 +200,27 @@ li a {
 } */
 #midtermpara {
     font-family: 'Nanum Gothic', sans-serif;
-    font-size: 20px;
-    margin-top: -40px;
+    font-size: 15px;
+    margin-top: -10px;
     margin-left: 205px;
     font-weight: lighter;
     letter-spacing: 1px;
     white-space: wrap;
+    text-indent: 15px;
 }
-#upcoming {
+/* #upcoming {
     font-family: 'Nanum Gothic', sans-serif;
     color: black;
     font-size: 31px;
-    margin-top: 10px;
-    margin-left: 570px;
+    margin-top: 40px;
+    margin-left: 690px;
     font-weight: bolder;
     letter-spacing: 1px;
     white-space: wrap;
-}
+} */
 #elections {
     font-family: 'Nanum Gothic', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     margin-top: -10px;
     white-space: wrap;
     margin-left: 205px;
@@ -195,7 +267,8 @@ li a {
     z-index: 2;
 }
 #video {
-    float: left;
+    float:left;
+    margin-left: 400px;
     /* margin-top: 550px;
     margin-left: 450px; */
     border: none;
@@ -205,12 +278,11 @@ li a {
 #con {
     width: 100%;
     border: 2px solid black;
-    height: 200px;
+    height: 60%;
     /* background-color:rgb(248, 248, 238); */
-    background-color: yellow;
+    background-color: beige;
     z-index: -1;
     position: absolute;
-    background-image: rgb(211, 211, 206);
     margin-top: 10px;
 }
 
@@ -218,8 +290,7 @@ li a {
     width: 100%;
     /* border: 2px solid yellow; */
     height: 200px;
-    background-color:pink;
+    background-color:white;
     z-index: -1;
     position: absolute;
 }
-
