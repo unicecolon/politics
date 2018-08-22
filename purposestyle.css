@@ -24,8 +24,7 @@ li a {
 }
 
 hr {
-    margin-right: 50%;
-    margin-left: 2%;
+    width: 100%;
 }
 
 .purpose {
@@ -33,7 +32,7 @@ hr {
     font-size: 40px;
     z-index: 3;
     margin-top: -55px;
-    margin-left: 35px;
+    margin-left: 15px;
     font-family: 'Roboto', sans-serif;
 }
 

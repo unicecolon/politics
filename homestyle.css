@@ -179,6 +179,8 @@ li a {
     color: black;
     margin-left: 124px;
     margin-bottom: -100px;
+    border: solid 0.25px #000000;
+    background-color: rgb(245, 245, 220);
 }
 #politicmap {
     width: 20%;
@@ -198,7 +200,7 @@ li a {
     width: 12%;
     position: absolute;
     margin-left: 940px;
-    margin-top: -200px;
+    margin-top: -210px;
     z-index: 1;
 }
 #midtermtitle {

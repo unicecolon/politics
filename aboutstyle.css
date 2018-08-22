@@ -22,6 +22,20 @@ li a {
     text-decoration: none;
     font-family:'Roboto', sans-serif;
 }
+
+hr {
+  width: 100%;
+}
+
+.blah {
+  position: absolute;
+  font-size: 40px;
+  z-index: 3;
+  margin-top: -55px;
+  margin-left: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
 .parallax {
     background-image: url("img/capital.png");
     min-height: 700px;
@@ -65,7 +79,7 @@ li a {
 #congress {
     z-index: -1;
     overflow-y: hidden;
-    height: 675px;
+    height: 666px;
 
 }
 

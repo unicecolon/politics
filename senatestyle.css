@@ -22,6 +22,15 @@ li a {
     font-family:'Roboto', sans-serif;
 }
 
+.blah {
+    position: absolute;
+    font-size: 40px;
+    z-index: 3;
+    margin-top: -55px;
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    }
+
 h1 {
     font-family: "Nanum+Gothic", sans-serif;
     text-align: center;
@@ -60,7 +69,7 @@ hr {
 }
 
 #link {
-    margin: 15px 10px 10px 10px;
+    margin: 25px 10px 5px 10px;
 }
 
 #senatepic {
@@ -74,7 +83,7 @@ hr {
 #con {
     width: 250px;
     height: 72px;
-    padding: 30px 25px
+    padding: 25px 25px
 }
 
 #text {
@@ -96,7 +105,7 @@ hr {
 }
 
 #list {
-    text-align: center;
+    margin-left: 15px;
 }
 
 .column {

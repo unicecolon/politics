@@ -20,6 +20,14 @@ li a {
     text-decoration: none;
     font-family:'Roboto', sans-serif;
 }
+.blah {
+    position: absolute;
+    font-size: 40px;
+    z-index: 3;
+    margin-top: -55px;
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+  }
 .parallax {
     background-image: url("https://media.giphy.com/media/12C01e5YMVbTuE/giphy.gif");
     min-height: 450px;
